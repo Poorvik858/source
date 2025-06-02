@@ -128,10 +128,7 @@ const user = {
   greet: function () {
     return `Hello, my name is ${this.name}`;
   }
-};
-
-console.log(user.greet());
-
+}
 // 16. Array Map
 const numbers = [1, 2, 3, 4, 5];
 const squared = numbers.map(n => n * n);
@@ -162,4 +159,7 @@ class Animal {
     return `${this.name} makes a sound.`;
   }
 }
+// 18. Array Reduce
+const total = numbers.reduce((acc, cur) => acc + cur, 0);
+console.log('Sum:', total);
 
