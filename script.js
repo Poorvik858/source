@@ -162,6 +162,4 @@ class Animal {
     return `${this.name} makes a sound.`;
   }
 }
-const dog = new Animal("Dog");
-console.log(dog.speak());
-added script
+
