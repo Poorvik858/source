@@ -277,14 +277,4 @@ th {
   left: 4px; bottom: 4px;
   background-color: white;
   transition: .4s;
-  border-radius: 50%;
-}
-
-input:checked + .slider {
-  background-color: #2196F3;
-}
-
-input:checked + .slider:before {
-  transform: translateX(26px);
-}
-added css style
+  }
